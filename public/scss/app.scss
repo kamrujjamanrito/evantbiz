@@ -1,0 +1,92 @@
+/*
+Theme Name: Evantbiz
+Author: Tecursive
+Author URI: https://themeforest.net/user/tecursive
+Description: Evantbiz - Conference & Events React NextJs Template
+Version: 1.0.0
+*/
+
+/*
+=================================
+|***   CSS Table of contents:   ***|
+=================================
+
+1. General styles
+2. Typography
+3. Helpers
+4. Preloader
+5. Go up button
+6. Header and navigation
+7. Hero Section
+8. About us
+9. Services
+10. Fun facts
+11. Projects
+12. Pricing
+13. Testimonial
+14. CTA
+15. Team
+16. Video Banner
+17. Shop
+18. Marquee
+19. Blog
+20. Footer
+/*CSS Table Of Content Ends Here*/
+
+//>> Basic Start <<//
+
+//>> Mixins <<//
+@use "./mixins" as *;
+//>> Variables <<//
+@use "./variables" as *;
+//>> Buttons <<//
+@use "./buttons" as buttons;
+//>> Typography <<//
+@use "./typography" as typography;
+
+//>> Basic End <<//
+
+//>> Template Section Style Start <<//
+
+//>> Preloader <<//
+@use "./preloader" as preloader;
+//>> Section <<//
+@use "./section" as section;
+//>> Animation <<//
+@use "./animation" as animation;
+//>> Header <<//
+@use "./header" as header;
+//>> MeanMenu <<//
+@use "./meanmenu" as meanmenu;
+//>> Hero <<//
+@use "./hero" as hero;
+//>> Feature <<//
+@use "./feature" as feature;
+//>> About <<//
+@use "./about" as about;
+//>> Project <<//
+@use "./event" as event;
+//>> Pricing <<//
+@use "./pricing" as pricing;
+//>> Helping <<//
+@use "./helping" as helping;
+//>> Team <<//
+@use "./team" as team;
+//>> Faq <<//
+@use "./faq" as faq;
+//>> Cta <<//
+@use "./cta" as cta;
+//>> Testimonial <<//
+@use "./testimonial" as testimonial;
+//>> Brand <<//
+@use "./brand" as brand;
+//>> News Addons <<//
+@use "./news-addons" as newsAddons;
+//>> Blog index default style <<//
+@use "./blog" as blog;
+//>> Contact <<//
+@use "./contact" as contact;
+//>> Footer <<//
+@use "./footer" as footer;
+
+//>> Template Section Style End <<//
